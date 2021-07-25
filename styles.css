@@ -1,1 +1,63 @@
 /* Write your CSS here! */
+
+body {
+    background-color: teal;
+    color: lightsalmon;
+    font-family: 'Courier New', monospace;
+  }
+  .intro {
+    font-weight: bold;
+  }
+  header,
+  main,
+  footer {
+      background-color: lightyellow;
+      margin-left: 400px;
+      margin-right: 400px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding: 5px;
+      text-align: center;
+  }
+  section {
+	margin: 1.5em 0;
+  }
+
+  #navigation ul
+  {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  #navigation ul li
+  {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+  }
+  #navigation li:not(:first-child):before {
+    content: " | ";
+  }
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+  }
+  p {
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 5px;
+  }
+  figure {
+	margin-bottom: 15px;
+	padding: 0;
+	text-align: center;
+  }
+  hr.dashed {
+    border-top: 3px dashed rgb(182, 248, 237);
+  }
+  
