@@ -1,12 +1,16 @@
 /* Write your CSS here! */
-
+#mainHeader {
+  color: red;
+}
 body {
     background-color: teal;
-    color: lightsalmon;
     font-family: 'Courier New', monospace;
+    margin: 8px;
+    display: block;
   }
-  .intro {
+  .funParagraph {
     font-weight: bold;
+    color: green;
   }
   header,
   main,
@@ -45,10 +49,6 @@ body {
     width: 300px;
   }
   p {
-    margin-right: 500px;
-    margin-left: 500px;
-    margin-top: 15px;
-    margin-bottom: 15px;
     text-align: center;
     padding: 5px;
   }
