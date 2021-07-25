@@ -2,62 +2,59 @@
 #mainHeader {
   color: red;
 }
+.funParagraph {
+  color: green;
+}
 body {
     background-color: teal;
     font-family: 'Courier New', monospace;
     margin: 8px;
     display: block;
-  }
-  .funParagraph {
-    font-weight: bold;
-    color: green;
-  }
-  header,
-  main,
-  footer {
-      background-color: lightyellow;
-      margin-left: 400px;
-      margin-right: 400px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      padding: 5px;
-      text-align: center;
-  }
-  section {
-	margin: 1.5em 0;
-  }
+}
+header,
+main,
+footer {
+    background-color: lightyellow;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+}
+section {
+	  margin: 1.5em 0;
+}
 
-  #navigation ul
-  {
+#navigation ul {
     margin: 0;
     padding: 0;
     text-align: center;
-  }
-  #navigation ul li
-  {
+}
+#navigation ul li {
     list-style-type: none;
     display: inline;
     text-align: center;
-  }
-  #navigation li:not(:first-child):before {
-    content: " | ";
-  }
-  img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 300px;
-  }
-  p {
-    text-align: center;
-    padding: 5px;
-  }
-  figure {
+}
+#navigation li:not(:first-child):before {
+  content: " | ";
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+}
+p {
+  text-align: center;
+  padding: 5px;
+}
+figure {
 	margin-bottom: 15px;
 	padding: 0;
 	text-align: center;
-  }
-  hr.dashed {
-    border-top: 3px dashed rgb(182, 248, 237);
-  }
+}
+hr.dashed {
+  border-top: 3px dashed rgb(182, 248, 237);
+}
   
