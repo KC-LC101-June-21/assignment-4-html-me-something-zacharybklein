@@ -1,1 +1,60 @@
 /* Write your CSS here! */
+#mainHeading {
+  color: red;
+}
+.funParagraph {
+  color: green;
+}
+body {
+    background-color: teal;
+    font-family: 'Courier New', monospace;
+    margin: 8px;
+    display: block;
+}
+header,
+main,
+footer {
+    background-color: lightyellow;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5px;
+    text-align: center;
+}
+section {
+	  margin: 1.5em 0;
+}
+
+#navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#navigation ul li {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+}
+#navigation li:not(:first-child):before {
+  content: " | ";
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+}
+p {
+  text-align: center;
+  padding: 5px;
+}
+figure {
+	margin-bottom: 15px;
+	padding: 0;
+	text-align: center;
+}
+hr.dashed {
+  border-top: 3px dashed rgb(182, 248, 237);
+}
+  
